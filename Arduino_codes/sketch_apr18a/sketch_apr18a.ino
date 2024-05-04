@@ -16,9 +16,6 @@ void loop() {
     
       if(userInput == 'o'){
         digitalWrite(LED_BUILTIN, HIGH);
-        delay(delay_Value);
-        Serial.println(delay_Value);
-        digitalWrite(LED_BUILTIN, LOW);
 
       }
       if (userInput == 'x'){
